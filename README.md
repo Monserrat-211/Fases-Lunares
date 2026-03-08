@@ -36,3 +36,18 @@ El diseño está inspirado en el espacio exterior, utilizando una paleta de colo
 - HTML5
 - CSS
 
+## Cambios realizados en esta actualización
+
+En esta actualización del proyecto se realizaron las siguientes mejoras:
+
+- Se implementó Flexbox en CSS para mejorar la organización del contenido de la página.
+
+- Se añadió un índice desplegable utilizando los elementos HTML details y summary.
+
+- Se reorganizó el menú de navegación para facilitar el acceso a cada sección.
+
+- Se mejoraron los estilos visuales del sitio para una presentación más clara y ordenada.
+
+- Se aplicaron estilos Flexbox al formulario para mejorar la alineación de los campos.
+
+El proyecto está publicado mediante GitHub Pages, lo que permite visualizar la página web directamente desde el repositorio.
