@@ -1,5 +1,4 @@
 
-/* ESTILO GENERAL */
 
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -10,7 +9,6 @@ body{
     line-height:1.6;
 }
 
-/* HEADER */
 
 header{
     background:#141a4b;
@@ -22,7 +20,6 @@ header h1{
     margin-bottom:10px;
 }
 
-/* MENU CON FLEXBOX */
 
 .menu{
     display:flex;
@@ -33,7 +30,6 @@ header h1{
     gap:10px;
 }
 
-/* INDICE DESPLEGABLE */
 
 .menu details{
     width:320px;
@@ -53,7 +49,6 @@ header h1{
     background:#505df0;
 }
 
-/* LINKS DEL INDICE */
 
 .menu a{
     display:block;
@@ -68,7 +63,6 @@ header h1{
     background:#4d59d1;
 }
 
-/* MAIN CON FLEXBOX */
 
 main{
     display:flex;
@@ -78,7 +72,6 @@ main{
     padding:30px;
 }
 
-/* SECCIONES BASE */
 
 section{
     width:80%;
@@ -89,7 +82,6 @@ section{
     box-shadow:0px 0px 10px rgba(0,0,0,0.5);
 }
 
-/* FLEXBOX PARA SECCIONES */
 
 .seccion-flex{
     display:flex;
@@ -99,32 +91,26 @@ section{
     transition: transform 0.3s;
 }
 
-/* EFECTO HOVER */
 
 .seccion-flex:hover{
     transform: scale(1.02);
 }
 
-/* INTERCALAR IMAGENES */
 
 .seccion-flex:nth-child(even){
     flex-direction: row-reverse;
 }
 
-/* TEXTO */
-
 .texto{
     flex:1;
 }
 
-/* TITULOS */
 
 section h2{
     text-align:center;
     margin-bottom:15px;
 }
 
-/* IMAGENES GENERALES */
 
 img{
     width:100%;
@@ -134,7 +120,6 @@ img{
     border-radius:8px;
 }
 
-/* IMAGENES EN FLEX (MISMO TAMAÑO) */
 
 .seccion-flex img{
     width:250px;
@@ -144,7 +129,6 @@ img{
     margin:0;
 }
 
-/* VIDEOS */
 
 video{
     display:block;
@@ -153,7 +137,6 @@ video{
     border-radius:8px;
 }
 
-/* FORMULARIO CON FLEXBOX */
 
 form{
     display:flex;
@@ -172,7 +155,6 @@ input{
     border:none;
 }
 
-/* BOTON */
 
 .btn{
     margin-top:10px;
@@ -188,7 +170,6 @@ input{
     background:#6f79ff;
 }
 
-/* SECCIONES ESPECIALES (NO INTERCALAR) */
 
 #video-temblante,
 #vision-espacio,
@@ -197,7 +178,6 @@ input{
     text-align:center;
 }
 
-/* FOOTER */
 
 footer{
     text-align:center;
@@ -206,7 +186,6 @@ footer{
     margin-top:20px;
 }
 
-/* RESPONSIVE */
 
 @media (max-width:768px){
     .seccion-flex{
@@ -219,3 +198,38 @@ footer{
         height:auto;
     }
 } 
+
+.overlay{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.7);
+
+    display:none;              
+    justify-content:center;
+    align-items:center;
+
+    z-index:999;
+}
+
+
+.overlay:target{
+    display:flex;
+}
+
+.cookie-modal{
+    background:#141a4b;
+    padding:30px;
+    width:300px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0px 0px 15px rgba(0,0,0,0.8);
+}
+
+
+.cookie-modal .btn{
+    display:inline-block;
+    margin-top:15px;
+}
