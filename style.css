@@ -30,6 +30,7 @@ header h1{
     align-items:center;
     background:#1d2570;
     padding:15px;
+    gap:10px;
 }
 
 /* INDICE DESPLEGABLE */
@@ -77,7 +78,7 @@ main{
     padding:30px;
 }
 
-/* SECCIONES */
+/* SECCIONES BASE */
 
 section{
     width:80%;
@@ -88,6 +89,34 @@ section{
     box-shadow:0px 0px 10px rgba(0,0,0,0.5);
 }
 
+/* FLEXBOX PARA SECCIONES */
+
+.seccion-flex{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:20px;
+    transition: transform 0.3s;
+}
+
+/* EFECTO HOVER */
+
+.seccion-flex:hover{
+    transform: scale(1.02);
+}
+
+/* INTERCALAR IMAGENES */
+
+.seccion-flex:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+/* TEXTO */
+
+.texto{
+    flex:1;
+}
+
 /* TITULOS */
 
 section h2{
@@ -95,7 +124,7 @@ section h2{
     margin-bottom:15px;
 }
 
-/* IMAGENES */
+/* IMAGENES GENERALES */
 
 img{
     width:100%;
@@ -103,6 +132,16 @@ img{
     display:block;
     margin:20px auto;
     border-radius:8px;
+}
+
+/* IMAGENES EN FLEX (MISMO TAMAÑO) */
+
+.seccion-flex img{
+    width:250px;
+    height:250px;
+    object-fit: cover;
+    border-radius:8px;
+    margin:0;
 }
 
 /* VIDEOS */
@@ -149,6 +188,15 @@ input{
     background:#6f79ff;
 }
 
+/* SECCIONES ESPECIALES (NO INTERCALAR) */
+
+#video-temblante,
+#vision-espacio,
+.seccion-flex:last-of-type{
+    flex-direction:column !important;
+    text-align:center;
+}
+
 /* FOOTER */
 
 footer{
@@ -157,3 +205,17 @@ footer{
     background:#141a4b;
     margin-top:20px;
 }
+
+/* RESPONSIVE */
+
+@media (max-width:768px){
+    .seccion-flex{
+        flex-direction:column !important;
+        text-align:center;
+    }
+
+    .seccion-flex img{
+        width:100%;
+        height:auto;
+    }
+} 

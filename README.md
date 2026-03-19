@@ -51,3 +51,18 @@ En esta actualización del proyecto se realizaron las siguientes mejoras:
 - Se aplicaron estilos Flexbox al formulario para mejorar la alineación de los campos.
 
 El proyecto está publicado mediante GitHub Pages, lo que permite visualizar la página web directamente desde el repositorio.
+Cambios realizados en esta actualización
+
+En esta versión del proyecto se implementaron las siguientes mejoras:
+
+Se incorporó Flexbox para optimizar la estructura y alineación del contenido.
+
+Se añadieron secciones con imágenes intercaladas para mejorar la presentación visual.
+
+Se implementó un índice desplegable utilizando las etiquetas <details> y <summary>.
+
+Se reorganizó el menú de navegación para facilitar el acceso a cada sección.
+
+Se mejoraron los estilos generales del sitio para lograr un diseño más limpio y moderno.
+
+Se aplicó Flexbox en el formulario para mejorar la distribución de los campos.
