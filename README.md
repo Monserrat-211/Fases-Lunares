@@ -93,3 +93,14 @@ En esta versión del proyecto se implementaron mejoras importantes:
 - Se implementó una tarjeta emergente de cookies (modal) sin usar JavaScript, utilizando :target.
 
 - Se mejoró la estructura visual general del sitio para una apariencia más profesional.
+
+## Cambios realizados en esta actualizacion  
+- Se aplicaron media queries para lograr un diseño responsive.
+
+- Se implementó una tarjeta emergente de cookies (modal) sin JavaScript usando :target.
+
+- Se mejoró la organización del menú y la navegación interna del sitio.
+
+- Se optimizaron los estilos generales para un diseño más limpio y profesional.
+
+- Se aplicó Flexbox en el formulario para mejorar la distribución de los campos.
