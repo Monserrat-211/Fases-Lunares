@@ -1,106 +1,71 @@
 # Fases Lunares
 
-Proyecto web educativo que explica las diferentes fases de la Luna a través de contenido visual, descripciones claras, imágenes ilustrativas y videos explicativos.
+Proyecto web educativo que explica las diferentes fases de la Luna mediante contenido visual, descripciones claras, imágenes ilustrativas y videos explicativos.
 
 
 ## Descripción
 
 Este sitio web presenta información sobre el ciclo lunar y sus principales fases:
 
--  Luna nueva  
--  Luna creciente  
--  Primer cuarto  
--  Luna gibosa creciente  
--  Luna llena  
--  Luna gibosa menguante  
--  Último cuarto  
--  Luna menguante  
+* Luna nueva
+* Luna creciente
+* Primer cuarto
+* Luna gibosa creciente
+* Luna llena
+* Luna gibosa menguante
+* Último cuarto
+* Luna menguante
 
-El diseño está inspirado en el espacio exterior, utilizando una paleta de colores azul oscuro y gris plateado, con efecto de constelaciones y tipografía cursiva elegante.
+El diseño está inspirado en el espacio exterior, utilizando una paleta de colores oscuros con tonos azules y detalles brillantes, simulando un entorno tipo constelación.
 
 
 ## Características
 
-- Diseño temático tipo constelación
-- Fondo espacial con estrellas animadas
-- Estilo visual inspirado en la Luna
-- Navegación interna mediante anclas
-- Imágenes ilustrativas de cada fase
-- Videos en formato MP4 integrados correctamente
-- Formulario de registro
-- Diseño responsive básico
+*  Diseño temático estilo espacio / NASA
+*  Fondo espacial con estrellas animadas
+*  Navegación interna mediante anclas
+*  Índice desplegable con `<details>` y `<summary>`
+*  Imágenes ilustrativas de cada fase lunar
+*  Videos integrados en formato MP4
+*  Formulario de registro de usuarios
+*  Modal de cookies sin JavaScript (uso de `:target`)
+*  Diseño responsive con Media Queries
 
 
 ## Tecnologías Utilizadas
 
-- HTML5
-- CSS
-
-## Cambios realizados en esta actualización
-
-En esta actualización del proyecto se realizaron las siguientes mejoras:
-
-- Se implementó Flexbox en CSS para mejorar la organización del contenido de la página.
-
-- Se añadió un índice desplegable utilizando los elementos HTML details y summary.
-
-- Se reorganizó el menú de navegación para facilitar el acceso a cada sección.
-
-- Se mejoraron los estilos visuales del sitio para una presentación más clara y ordenada.
-
-- Se aplicaron estilos Flexbox al formulario para mejorar la alineación de los campos.
-
-El proyecto está publicado mediante GitHub Pages, lo que permite visualizar la página web directamente desde el repositorio.
-Cambios realizados en esta actualización.
-
-## Cambios realizados en esta actualizacion 
-
-En esta versión del proyecto se implementaron las siguientes mejoras:
-
-- Se incorporó Flexbox para optimizar la estructura y alineación del contenido.
-
-- Se añadieron secciones con imágenes intercaladas para mejorar la presentación visual.
-
-- Se implementó un índice desplegable utilizando las etiquetas <details> y <summary>.
-
-- Se reorganizó el menú de navegación para facilitar el acceso a cada sección.
-
-- Se mejoraron los estilos generales del sitio para lograr un diseño más limpio y moderno.
-
-- Se aplicó Flexbox en el formulario para mejorar la distribución de los campos.
-
-## Tecnologías utilizadas
-
-- HTML5
-
-- CSS3
-
-- Flexbox
-
-- Media Queries
+* HTML5
+* CSS
+* Flexbox
+* Media Queries
 
 
-En esta versión del proyecto se implementaron mejoras importantes:
+## Mejoras Implementadas
 
-- Se agregó una barra de navegación (navbar) fija utilizando position: fixed y z-index.
+En esta versión del proyecto se realizaron las siguientes mejoras:
 
-- Se implementó Flexbox para mejorar la alineación de contenido en secciones, menú y formulario.
+* Se implementó **Flexbox** para mejorar la estructura y alineación del contenido.
+* Se añadió un **menú de navegación fijo (navbar)** utilizando `position: fixed`.
+* Se incorporó un **menú hamburguesa lateral** para mejorar la experiencia en dispositivos móviles.
+* Se agregó un **índice desplegable** usando `<details>` y `<summary>`.
+* Se implementó un **modal de cookies sin JavaScript** utilizando `:target`.
+* Se mejoró la organización del contenido con **secciones e imágenes intercaladas**.
+* Se aplicaron **Media Queries** para lograr un diseño responsive.
+* Se optimizaron los estilos para una apariencia más moderna y profesional.
+* Se integró un **fondo animado tipo espacio con estrellas en movimiento**.
 
-- Se diseñó un sistema de imágenes intercaladas para una mejor presentación visual.
 
-- Se añadieron media queries para lograr un diseño responsive.
+## Publicación
 
-- Se implementó una tarjeta emergente de cookies (modal) sin usar JavaScript, utilizando :target.
+El proyecto está publicado mediante **GitHub Pages**, lo que permite visualizar la página web directamente desde el repositorio.
 
-- Se mejoró la estructura visual general del sitio para una apariencia más profesional.
 
-## Cambios realizados en esta actualizacion  
-- Se aplicaron media queries para lograr un diseño responsive.
+## Notas
 
-- Se implementó una tarjeta emergente de cookies (modal) sin JavaScript usando :target.
+Este proyecto fue desarrollado con fines educativos, enfocado en el aprendizaje de:
 
-- Se mejoró la organización del menú y la navegación interna del sitio.
+* Maquetación web con HTML5
+* Diseño visual con CSS
+* Uso de Flexbox y diseño responsive
+* Implementación de componentes interactivos sin JavaScript
 
-- Se optimizaron los estilos generales para un diseño más limpio y profesional.
-
-- Se aplicó Flexbox en el formulario para mejorar la distribución de los campos.
